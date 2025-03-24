@@ -1,0 +1,40 @@
+body{
+    /* width: 100vh; */
+    height: 100vh;
+}
+
+#fisrtSic-title{
+    text-align: center;
+    height: 15vh;
+    /* font-family: indie flower; */
+}
+#secondSis-board {
+    /* font-family: indie flower; */
+    justify-items: center;
+    background-image: url(paper02.jpeg);
+    /* background-size: calc(%); */
+    background-repeat: no-repeat;
+}
+
+#secondSis-board > div {
+    margin: 1%;
+}
+
+
+#secondSis-board > label {
+    justify-self: left;
+}
+
+.btn-close{
+    position: absolute;right: 10px;
+}
+
+#ThirdSic-cards{
+    display: flex;
+    position: absolute;bottom: 10px;
+ 
+}
+
+#card{
+    display: none;
+}
