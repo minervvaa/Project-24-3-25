@@ -8,12 +8,12 @@ body{
     height: 15vh;
     /* font-family: indie flower; */
 }
+
 #secondSis-board {
     /* font-family: indie flower; */
-    justify-items: center;
-    background-image: url(paper02.jpeg);
-    /* background-size: calc(%); */
-    background-repeat: no-repeat;
+    width: 600px;
+    /* background-image: url(paper03.jpeg); */
+    /* background-repeat: no-repeat; */
 }
 
 #secondSis-board > div {
@@ -21,20 +21,49 @@ body{
 }
 
 
-#secondSis-board > label {
-    justify-self: left;
-}
-
 .btn-close{
     position: absolute;right: 10px;
 }
 
-#ThirdSic-cards{
-    display: flex;
-    position: absolute;bottom: 10px;
- 
+@keyframes fade {
+
+0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-#card{
+#the-card{
     display: none;
+    margin: 2%;
+    
+}
+
+#ThirdSic-cards {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;bottom: 10px;
+}
+
+.card-text{
+    height: 150px;
+    width: 15rem;
+    overflow-y: scroll; 
+    /* max-height: 150px ; */
+}
+
+#card-footer{
+    text-align: left ;
+}
+/* 
+.card-body{
+    background-image:url(paper03.jpeg);
+
+} */
+
+.btn-close{
+    position: absolute;
+    top: auto;
 }

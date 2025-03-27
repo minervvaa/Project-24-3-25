@@ -24,8 +24,8 @@
 <body>
     <section id="fisrtSic-title">
         <h1>My Task Board</h1>
-   
-        
+
+
     </section>
 
     <section id="secondSis-board">
@@ -41,28 +41,29 @@
             <input type="time" class="form-control" id="time-board">
 
         </div>
-
-        <button class="btn btn-primary">Save</button>
-        <button class="btn btn-primary">Reset</button>
-
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary me-md-2" id="saveButton" type="button" onclick="addCard();">Save</button>
+            <button class="btn btn-primary" id="resetButton" type="button">Reset</button>
+        </div>
     </section>
 
     <section id="ThirdSic-cards">
 
-
-        <div id="card"  class="card border-dark mb-3" style="max-width: 18rem;">
+        
+    </section>
+    
+    <div id="the-card">
+        <div id="card" class="card border-dark mb-3">
             <div class="card-header bg-transparent border-dark">
-                task num
-                <button type="button" class="btn-close" aria-label="Close"></button>
+                new task
+                <button type="button" class="btn-close" aria-label="Close" ></button>
             </div>
             <div class="card-body">
-                <h5 class="card-title">Dark card title</h5>
-                <p class="card-text">Some quick example text to build on the card.</p>
+                <p class="card-text"></p>
             </div>
-            <div class="card-footer bg-transparent border-dark">time/date</div>
+            <div id="card-footer" class="card-footer bg-transparent border-dark">time/date</div>
         </div>
-    </section>
-
+    </div>
 
 
 </body>
