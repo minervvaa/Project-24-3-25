@@ -1,28 +1,52 @@
-body{
-    /* width: 100vh; */
+.body{
+    background-color: grey;
+    /* background-image:url(board06.jpeg); */
+    /* background-size:inherit ; */
+    /* background-size:cover ; */
+    /* background: size 1000px; ; */
+    background-position: center;
+    background-repeat: no-repeat; 
     height: 100vh;
 }
 
 #fisrtSic-title{
+    color: rgb(198, 216, 210);
     text-align: center;
     height: 15vh;
     /* font-family: indie flower; */
 }
 
+
 #secondSis-board {
-    /* font-family: indie flower; */
-    width: 600px;
-    /* background-image: url(paper03.jpeg); */
-    /* background-repeat: no-repeat; */
+    /* position: static; */
+    /* position: absolute; */
+    margin: auto;
+    font-family: indie flower;
+    width: 900px;
+    height: 250px;
+    /* background-image: url(Note.jpeg); */
+    /* background-image: url(paper05.jpeg); */
+    background-image: url(Note.jpeg);
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat; 
+    /* background-repeat: repeat-x; */
 }
 
-#secondSis-board > div {
-    margin: 1%;
+#board-buttons{
+    margin:1%;
+    
+}
+#board-div {
+    margin: auto;
+    width: 800px;
 }
 
 
 .btn-close{
-    position: absolute;right: 10px;
+    position: absolute;
+    right: 10px;
+    display: none;
 }
 
 @keyframes fade {
@@ -35,7 +59,7 @@ body{
   }
 }
 
-#the-card{
+.the-card{
     display: none;
     margin: 2%;
     
@@ -59,11 +83,12 @@ body{
 }
 /* 
 .card-body{
-    background-image:url(paper03.jpeg);
-
+    
+background-image:url(paper03.jpeg);
 } */
 
 .btn-close{
     position: absolute;
     top: auto;
+    /* display: none; */
 }
