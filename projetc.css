@@ -1,100 +1,116 @@
-.body{
-    background-color: grey;
-    /* background-image:url(board06.jpeg); */
-    /* background-size:inherit ; */
-    /* background-size:cover ; */
-    /* background: size 1000px; ; */
-    background-position: center;
-    background-repeat: no-repeat; 
+.body {
     height: 100vh;
+    background-color: #e4e6d9;
 }
 
-#fisrtSic-title{
-    color: rgb(198, 216, 210);
+#fisrtSic-title {
+    height: 10vh;
+    margin-bottom: 3%;
+    margin-top: 20px;
     text-align: center;
-    height: 15vh;
-    /* font-family: indie flower; */
+    font-family: Ubuntu;
 }
 
+img {
+    height: 70px;
+}
+
+h1 {
+    margin: auto;
+    border: 3px #c0cfb2 solid;
+    border-radius: 10px;
+    background-color: #c0cfb2;
+    width: 360px;
+}
 
 #secondSis-board {
-    /* position: static; */
-    /* position: absolute; */
+   
+    /* height: 40vh; */
     margin: auto;
-    font-family: indie flower;
-    width: 900px;
-    height: 250px;
-    /* background-image: url(Note.jpeg); */
-    /* background-image: url(paper05.jpeg); */
-    background-image: url(Note.jpeg);
-    background-size:cover ;
-    background-position: center;
-    background-repeat: no-repeat; 
-    /* background-repeat: repeat-x; */
+    margin-bottom: 100px;
+    background-image: url(paper07.jpeg);
+    background-size: 800px;
+    background-position: top;
+    background-repeat: no-repeat;
+    /* font-family: indie flower; */
+    font-family: Ubuntu;
 }
 
-#board-buttons{
-    margin:1%;
-    
-}
 #board-div {
     margin: auto;
-    width: 800px;
+    width: 700px;
+}
+
+label {
+    color: #273526;
+    font-size: 20px;
+}
+
+input {
+    /* border: 3px solid #c1c4d3 !important; */
+    background-color: transparent !important;
+}
+
+#board-buttons>button {
+    background-color: #6c8776;
+    border: #c6c4d1;
+    color: #000;
+}
+
+#ThirdSic-cards {
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.the-card {
+    display: none;
 }
 
 
-.btn-close{
+#card {
+    font-family: Ubuntu;
+    margin-left: 10%;
+}
+
+#card-header {
+    height: 30px;
+    background-color: #6c8776 !important;
+}
+
+
+.card-body {
+    background-color: #c0cfb2;
+    overflow-y: auto;
+}
+
+.card-text {
+    height: 150px;
+    max-width: 10rem;
+}
+
+
+#card-footer {
+    font-family: Ubuntu !important;
+    background-color: #c0cfb2 !important;
+    text-align: left;
+}
+
+
+.btn-close {
     position: absolute;
-    right: 10px;
+    top: 4px;
+    right: 2px;
     display: none;
 }
 
 @keyframes fade {
 
-0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+    0% {
+        opacity: 0;
+    }
 
-.the-card{
-    display: none;
-    margin: 2%;
-    
-}
-
-
-#card{
-margin: 2%;
-background-color: rgb(211, 169, 169);
-}
-
-#ThirdSic-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left ;
-}
-
-.card-text{
-    height: 150px;
-    width: 15rem;
-    overflow-y: scroll; 
-    /* max-height: 150px ; */
-}
-
-#card-footer{
-    text-align: left ;
-}
-/* 
-.card-body{
-    
-background-image:url(paper03.jpeg);
-} */
-
-.btn-close{
-    position: absolute;
-    top: auto;
-    /* display: none; */
+    100% {
+        opacity: 1;
+    }
 }
