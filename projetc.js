@@ -76,8 +76,12 @@ function tasksRecord(card) {
         timeDate: timeDate
     };
 
+    const savedCards = JSON.parse(localStorage.getItem("savedCards")) || [];
+    savedCards.push(cardData);
+    localStorage.setItem("savedCards", JSON.stringify(savedCards));
+
     CARDS.push(cardData);
-    localStorage.setItem("savedCards", JSON.stringify(CARDS));
+
 
         // ↓ this keept the card saved in the [] 
     // localStorage.setItem(cardId, JSON.stringify(cardData));

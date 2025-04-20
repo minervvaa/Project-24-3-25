@@ -65,10 +65,16 @@
     
 }
 
+
+#card{
+margin: 2%;
+background-color: rgb(211, 169, 169);
+}
+
 #ThirdSic-cards {
     display: flex;
     flex-wrap: wrap;
-    position: absolute;bottom: 10px;
+    justify-content: left ;
 }
 
 .card-text{
